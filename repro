@@ -4,3 +4,4 @@ git branch -D tester
 git checkout -b tester master
 git merge --no-ff more-readme -m "merge more readme"
 git checkout more-readme
+sleep 5
