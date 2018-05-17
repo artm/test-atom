@@ -6,13 +6,13 @@ set -x
 # switch to the integrated deployment branch
 git checkout deploy
 # sync the integrated deployment branch with the repo
-git pull
+#git pull
 # ... the version from this point stays in atom for me ...
 
 # merge the feature branch
 git merge --no-ff feature -m "merge the feature"
 # here the merged version would be deployed
-git push
+#git push
 
 # switch back to the feature branch
 git checkout feature
