@@ -1,7 +1,7 @@
 #!/bin/sh
 
-set -x
 set -e
+set -x
 
 # switch to the integrated deployment branch
 git checkout deploy
