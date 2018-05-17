@@ -1,9 +1,11 @@
 #!/bin/sh
 
-git push -u
-git checkout tester
+echo switch to the integrated deployment branch
+git checkout deploy
+echo sync the integrated deployment branch with the repo
 git pull
+echo merge the feature branch
 git merge --no-ff more-readme -m "merge more readme"
-echo pretending to be deploying this version
-sleep 5
+echo here the merged version would be deployed
+echo switch back to the feature branch
 git checkout more-readme
