@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -x
+
 echo switch to the integrated deployment branch
 git checkout deploy
 echo sync the integrated deployment branch with the repo
