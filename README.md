@@ -1,5 +1,3 @@
 # README
 
-here we have more readme
-and now even more
-more
+Test the file watcher by changing the readme on `feature` branch.
