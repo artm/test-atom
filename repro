@@ -4,6 +4,7 @@ echo switch to the integrated deployment branch
 git checkout deploy
 echo sync the integrated deployment branch with the repo
 git pull
+echo ... the version from this point stays in atom for me ...
 echo merge the feature branch
 git merge --no-ff more-readme -m "merge more readme"
 echo here the merged version would be deployed
