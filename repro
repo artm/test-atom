@@ -12,6 +12,7 @@ git pull
 # merge the feature branch
 git merge --no-ff feature -m "merge the feature"
 # here the merged version would be deployed
+git push
 
 # switch back to the feature branch
 git checkout feature
