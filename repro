@@ -4,7 +4,6 @@ git push -u
 git checkout tester
 git pull
 git merge --no-ff more-readme -m "merge more readme"
-git push
 echo pretending to be deploying this version
 sleep 5
 git checkout more-readme
