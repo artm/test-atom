@@ -7,4 +7,5 @@ NOTE: the `repro` script is intentionally kept very simple and will break on
 merge conflicts. The simplest way to avoid merge conflicts is to add new text
 to the README as new text lines.
 
-1
+1. checkout `feature`
+2. open this readme in atom
