@@ -15,3 +15,7 @@ to the README as new text lines.
 6. the readme on disk will be the latest version from `feature` branch
 
 --- insert here ---
+
+more text
+
+--- until here ----
