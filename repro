@@ -7,7 +7,9 @@ set -x
 git checkout deploy
 # sync the integrated deployment branch with the repo
 # *** skipping this step fixes the problem ***
-git pull --rebase
+# git pull is a shorthand for:
+git fetch
+git merge FETCH_HEAD
 # *** after this point the files in atom will not be reloaded ***
 
 # merge the feature branch
