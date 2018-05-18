@@ -3,7 +3,7 @@
 set -e
 set -x
 
-git fetch --all
+git fetch origin deploy
 # switch to the integrated deployment branch
 git checkout deploy
 # sync the integrated deployment branch with the repo
