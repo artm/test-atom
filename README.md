@@ -18,6 +18,6 @@ to the README as new text lines.
 
 more text
 test contents
-an with polling?
+and with polling?
 
 --- until here ----
