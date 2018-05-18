@@ -3,7 +3,7 @@
 set -e
 set -x
 
-# fetch the integrated deployment branch, it's head is saved as FETCH_HEAD
+# fetch the integrated deployment branch, its head is saved as FETCH_HEAD
 git fetch origin deploy
 # switch to the integrated deployment branch
 git checkout deploy
