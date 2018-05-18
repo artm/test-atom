@@ -6,7 +6,7 @@ set -x
 # switch to the integrated deployment branch
 git checkout deploy
 # sync the integrated deployment branch with the repo
-#git pull
+git pull --no-rebase
 # ... the version from this point stays in atom for me ...
 
 # merge the feature branch
