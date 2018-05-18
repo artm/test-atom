@@ -7,7 +7,7 @@ set -x
 git checkout deploy
 # sync the integrated deployment branch with the repo
 # *** skipping this step fixes the problem ***
-git pull
+git pull --rebase
 # *** after this point the files in atom will not be reloaded ***
 
 # merge the feature branch
