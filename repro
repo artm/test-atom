@@ -3,12 +3,12 @@
 set -e
 set -x
 
+git fetch --all
 # switch to the integrated deployment branch
 git checkout deploy
 # sync the integrated deployment branch with the repo
 # *** skipping this step fixes the problem ***
 # git pull is a shorthand for:
-git fetch --all
 git merge FETCH_HEAD
 # *** after this point the files in atom will not be reloaded ***
 
